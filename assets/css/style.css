@@ -37,6 +37,7 @@ header{
 
 .nav-menu{
     display: flex;
+    color: #fff;
 }
 
 .nav-menu a{
@@ -44,6 +45,7 @@ header{
     text-transform: capitalize;
     font-weight: 400;
     transition: all .42s ease;
+    color: #060047;
 }
 
 .logo img{
@@ -57,7 +59,7 @@ header{
 }
 
 .nav-menu a:hover{
-    color: #060047;
+    color: #fff;
 }
 
 .nav-icon {
@@ -91,7 +93,7 @@ header{
     display: none;
 }
 
-section{
+main{
     padding: 60px 12%;
 }
 
@@ -142,6 +144,10 @@ section{
     transform: scale(1.1);
 }
 
+article{
+    padding: 40px 10%;
+}
+
 .product{
     width: 100%;
     height: auto;
@@ -161,29 +167,29 @@ section{
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
+}
 
-  .product-item {
+.product-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin: 20px;
-  }
+}
 
-  .product-item img {
+.product-item img {
     max-width: 400px;
     max-height: 300px;
     height: auto;
     border-radius: 30%;
     box-shadow: 1px 1px 5px #060047;
-  }
+}
 
-  .product-item h3{
+.product-item h3{
     font-size: 30px;
-  }
+}
 
-  aside{
+aside{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -191,30 +197,41 @@ section{
     height: auto;
     justify-content: center;
     background-color: #FF5F9E;
-  }
-  
-  .profil{
+}
+
+.profil{
     margin-right: 20px;
-  }
+}
   
-  .profil img{
+.profil img{
     width: 250px;
     height: 250px;
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 2px 2px 5px #060047;
-  }
+}
   
-  .profil-data h1{
+.profil-data h1{
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 5px;
-  }
+    color: #060047;
+}
   
-  .profil-data p{
+.profil-data p{
     font-size: 16px;
     margin-bottom: 30px;
-  }
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    background-color: #060047;
+}
 
 @media(max-width: 945px){
     header{
@@ -261,8 +278,9 @@ section{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 90px 30px;
+        padding: 30px 30px;
         transition: all .42s ease;
+        background-color: #B3005E;
     }
     .nav-menu a{
         display: block;
