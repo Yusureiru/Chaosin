@@ -93,7 +93,7 @@ header{
     display: none;
 }
 
-main{
+section{
     padding: 60px 12%;
 }
 
@@ -144,10 +144,6 @@ main{
     transform: scale(1.1);
 }
 
-article{
-    padding: 40px 10%;
-}
-
 .product{
     width: 100%;
     height: auto;
@@ -189,10 +185,9 @@ article{
     font-size: 30px;
 }
 
-aside{
+.bio{
     display: flex;
     flex-direction: row;
-    align-items: center;
     width: 100%;
     height: auto;
     justify-content: center;
@@ -216,11 +211,13 @@ aside{
     font-weight: bold;
     margin-bottom: 5px;
     color: #060047;
+    text-align: center;
 }
   
 .profil-data p{
     font-size: 16px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 footer{
